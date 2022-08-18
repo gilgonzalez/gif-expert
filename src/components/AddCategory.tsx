@@ -38,7 +38,7 @@ export const AddCategory : React.FC<Props> = ({onNewCategory}) => {
           onChange={onInputChange}
           name="category"
         />
-        <button className="button-53" role="button" onClick={()=>onSubmit}>Cargar Gifs</button>
+        <button className="button-53" role="button" onClick={()=>onSubmit}>Buscar Gifs</button>
       </form>
     </>
   );
