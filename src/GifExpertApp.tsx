@@ -20,9 +20,11 @@ const GifExpertApp = () => {
     <>
       <h1>GiftExpertApp</h1>
       <AddCategory onNewCategory={(value: string) => onAddCategory(value)} />
+      
       {categories.map((category) => (
         <GifGrid key={category} category={category} />
       ))}
+     
     </>
   );
 }
